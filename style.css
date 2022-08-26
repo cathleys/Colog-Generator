@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px 0;
+
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.wrapper {
+  width: 80%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+input[type="range"] {
+  display: inline-block;
+}
+
+[data-h1] {
+  text-align: center;
+}
